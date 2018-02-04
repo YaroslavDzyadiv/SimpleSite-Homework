@@ -1,0 +1,126 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #000;
+	background: #fff;
+	font: 14px/24px Georgia, serif;
+	width: 1400px;
+}
+
+.logo {
+	margin: 82px 0 63px 0;
+	text-align: center;
+}
+
+.wrapper {
+	width: 1063px;
+	margin: 0 auto;
+}
+
+.nav__list {
+	margin: 0 0 37px 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.nav__list li {
+	display: inline-block;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.nav__list a {
+	color: #626262;
+	text-decoration: none;
+}
+
+.nav__list a:hover {
+	color: red;
+
+}
+
+.nav__list a:active {
+	color: green;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+	color: #626262;
+}
+
+.photodiary, .comment {
+	color: #b4ad9e;
+	text-align: left;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.photodiary {
+	margin: 52px 0 30px 0;
+}
+
+h1 {
+	margin: 0 0 18px 0;
+	font: bold 36px/24px 'Times New Roman', Georgia, serif;
+}
+
+p {
+	margin: 0 0 30px 0;
+}
+
+h2 {
+	margin: 0 0 41px 0;
+	font-size: 29px;
+}
+
+ul {
+	padding-left: 18px;
+	margin: 0 0 32px 0; 
+}
+
+h3 {
+	margin: 0 0 35px 0;
+	font-size: 25px;
+}
+
+ol {
+	padding-left: 20px;
+}
+
+h4 {
+	margin: 0 0 37px 0;
+	font-size: 18px;
+}
+
+blockquote {
+	text-align: center;
+	margin: 0 0 25px 0;
+}
+
+.comment {
+	text-decoration: none;
+	margin-bottom: 100px;
+}
+.footer {
+	width: 1400px;
+	margin: 0 auto;
+	background: #f0f0f0;
+	height: 100px;
+	display: block;
+	position:relative;
+	overflow:hidden;
+}
+.follow {
+	padding-top: 35px;
+	margin: 0 0 0 995px;
+}
+.footer a {
+	margin-left: 20px;
+
+}
+.follow_link {
+	color: #000;
+	text-decoration: none;
+}
